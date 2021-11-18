@@ -17,6 +17,12 @@ li {
     color: green;
 }
 
+ul {
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -52,6 +58,15 @@ nav a:hover {
     color: darkred;
 }
 
+.highlight {
+    color: rgb(18, 201, 18);
+}
+
+.Holiday {
+    background-color: rgb(190, 190, 133);
+    padding: 10px;
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -77,6 +92,7 @@ nav a:hover {
 table {
     border: 3px solid black;
     width: 100%;
+    margin-bottom: 20px;
 }
   
 td,
